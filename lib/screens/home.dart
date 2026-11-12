@@ -17,6 +17,7 @@ import '../sections/contact.dart';
 import '../sections/experience.dart';
 import '../sections/overview.dart';
 import '../sections/projects.dart';
+import '../sections/prototypes.dart';
 import '../sections/skills.dart';
 import '../sections/welcome.dart';
 import '../three_d/shuriken_icon.dart';
@@ -158,6 +159,7 @@ class _HomeState extends State<Home> {
                     const RepaintBoundary(child: Skills()),
                     RepaintBoundary(child: NinjaDuel(key: _items[3].key)),
                     RepaintBoundary(child: Projects(key: _items[4].key)),
+                    const RepaintBoundary(child: Prototypes()),
                     RepaintBoundary(child: Contact(key: _items[5].key)),
                     const RepaintBoundary(child: Footer()),
                   ],
